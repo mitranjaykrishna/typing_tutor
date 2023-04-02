@@ -1,38 +1,82 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+html {
+    font-size: 95.00%;
+    /* scroll-behavior: smooth; */
+    /* 1rem = 10px */
+    overflow-x: hidden;
+    
   }
+body{
+    background-image: linear-gradient(to right, #8360c3, #2ebf91);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+    font-family: 'Special Elite', cursive;
 }
 
-.App-link {
-  color: #61dafb;
+.content{
+    display: grid;
+    height: 80px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 100%;
+    padding-bottom:2rem ;
+    
+}
+.content label {
+    grid-column: 2;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+#question{
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    line-height: 270%;
+    font-size: 1.2rem;
+    font-family: 'Work Sans', sans-serif;
+    margin-right: .5rem;
+
+    
+    
+}
+#text{
+    font-size: 1.3rem;
+    border-radius: 10px
+    
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.result{
+    display: grid;
+    height: 80px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 100px;
+    padding-bottom: 2rem;
+}
+
+#wpm{
+    
+    grid-column: 2;
+    margin-right: .5rem;
+}
+#accu{
+    grid-column: 3;
+}
+.w{
+    background-color: rgba(55, 233, 218, 0.313);
+
+}
+.r{
+    background-color: rgba(255, 0, 0, 0.469);
 }

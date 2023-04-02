@@ -1,0 +1,28 @@
+const string=[
+"kdlkk kajs als ldfas s kas ddkfl kfjddf",
+"s fja kalaj lflkj lls s s fs ljlajs js llk",
+"fdd alflkks alks jaas ls jfkk klkkkas l",
+"klds dalkkfk kfj kdfflafds s j k k kalda",
+"jlls aalj kjaal adlas ldajs kls kfjljs",
+"llaa kljls alas las dlldl ks kfdjd kddd",
+"s kddf kfjlj fdad ks d kdl k ks dd ks ls fs k",
+"af kaljff kdjjas lajld dlfl kfs kdjlfl",
+"jfll kjjl adall k kdad kjjlfs s fa ks kjf",
+"ldjs s ll ks jds j ks s fs ffjafaflfs adad",
+"flldf kl ks dlad kfl ks f kdaas l kaaadd k",
+"s ldas jdas dfd ks kffs a k k k kjjaa klada",
+"s djldfalld kfll kals ffdddajlaff kaj",
+"llllajfds dds adafdf kfads a kdajjjas",
+"kdl k k ks s djfds s j klas kdas s dajjdfaf",
+"djfs kadja kds s kdja kddlafljls s f k k k",
+"s ks kjajdafjj k kdf kj ks jaf kddjddl kd",
+"klfljls j k ks lad kj kjj k kfs kfaf kas ad",
+"fs dda kffddjaafs jajllds ld k k kddaff",
+"dds ffldjls ls f ka k k kads fffda k kjas  k",
+"ffdjjs kjl kjljfs ldlfjfaldjs lads jd",
+"d klafs s fddl kdaddjlfs s kaf kjadllaj",
+"ff kfds dls jjs jjafjdlljddf kd kfs dlj",
+"fjlds lldd k ks s k ks jafjdfll kddjfaj k",
+];
+//24  24-1=23
+export default string;
