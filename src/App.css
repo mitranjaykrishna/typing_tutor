@@ -66,12 +66,15 @@ h1 {
 }
 
 #wpm{
-    
+    font-size: 1.5rem;    
     grid-column: 2;
     margin-right: .5rem;
+    font-weight: bold;
 }
 #accu{
+    font-size: 1.5rem;    
     grid-column: 3;
+    font-weight: bold;
 }
 .w{
     background-color: rgba(55, 233, 218, 0.313);
