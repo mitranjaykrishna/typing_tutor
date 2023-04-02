@@ -65,7 +65,7 @@ const App=()=>{
   const wpm=()=>{
     setValWpm(Math.floor(count/5));
     var l=string[random].length;
-    var cal=Math.round((l-wrong)/l)*100;
+    var cal=Math.round(((l-wrong)/l)*100);
     setAccuracy(cal);
   }
 
